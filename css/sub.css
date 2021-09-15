@@ -43,7 +43,7 @@
     width: 1366px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 94px;
     margin: 0 auto;
 }
 #sub1_1 #main .container2 .aside > ul > li{
@@ -216,7 +216,7 @@
     font-size: 16px;
 }
 #sub1_1 #notice{
-    height: 400px;
+    height: 409px;
 }
 #sub1_1 #notice p{
     padding-bottom: 10px;
@@ -225,7 +225,7 @@
 #sub1_1 #notice img{
     position: absolute;
     right: 0;
-    
+   padding-bottom: 10px;
 }
 #sub1_4 #main{
     margin: 0 auto;
@@ -265,7 +265,7 @@
     width: 1366px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 94px;
     margin: 0 auto;
 }
 #sub1_4 #main .container2 .aside > ul > li{
@@ -413,7 +413,7 @@
     width: 1366px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 94px;
     margin: 0 auto;
 }
 #sub3_1 #main .container2 .aside > ul > li{

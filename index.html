@@ -8,7 +8,14 @@
       <!--jquery-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <!--css-->
-      <link rel="stylesheet" href="./css/style.css">
+     
+     <!-- pc css -->
+  <link rel="stylesheet" href="./css/pc.css" 
+  media="screen and (min-width: 768px)">
+<!-- 모바일 CSS -->
+<link rel="stylesheet" href="./css/mobile.css" 
+  media="screen and (max-width: 767px)">
+
       
       <!--js-->
       <script src="./js/nav.js"></script>
@@ -25,9 +32,11 @@
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
       <!--icon-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 <body>
     <header>
+      
         <div class="nav_bg"></div>
         
           <nav id="gnb1">
@@ -40,8 +49,16 @@
           </div>
           </nav>
           <div class="container">
+            <button id="toggle">
+              <img src="./images/Icon feather-menu.svg" alt="menu">
+          </button>
           <h1><a href="./index.html"><img src="./images/logo_gsnpoint.png" alt=""></a></h1>
           <nav id="gnb">
+            <div>
+              <button class="btn_close">
+                  <img src="./images/Icon material-close.svg" alt="close">
+              </button>
+          </div>
             <ul class="depth1">
               <li class="d1"><a href="./sub1_1.html">GS&POINT는</a>
                 <ul class="depth2">
@@ -85,7 +102,9 @@
               </li>
             </ul>
           </nav>
+        
         </div>
+        
       </header>
     
       <section id="mainVisual">
@@ -309,26 +328,26 @@
         </div><!--container-->
       </section>
 
-        <footer>
+      <footer>
          
-          <div class="footers">
-            <div class="footg">
-            <p class="list"> <a href="#"> 회사소개(GS 칼텍스) </a> | <a href="#"> GS & PASS란 </a> | <a href="#"> 서비스약관 </a> | <a href="#" class="green"> 개인정보처리방침 </a> | <a href="#"> 가맹점제휴문의 </a> | <a href="#"> 사업제안문의 </a> |<a href="#">  1:1문의</a></p>
-            <p class="call"><i class="fa fa-phone" aria-hidden="true"></i>고객서비스센터 1544-5151</p>
-          </div><!--footg-->
-          </div><!--footers-->
-        <div class="container"> 
-          <div class="footb">
-            <img src="./images/logo_gsnpoint.png" alt="">
-            <div class="footright">
-              <p class="location">GS 칼텍스(주) 서울 특별시 강남구 역삼동 679번지 GS타워 </p>
-              <p class="copy">COPYRIGHT © GS CALTEX CORPORATION ALL RIGHTS RESERVED.</p>
-              <p class="notice">
-                GSnPOINT.com의 '쓰고 싶다면'에 등록된 상품 및 콘텐츠는 통신판매업자인 GS엠비즈(주)의 중개시스템을 통해 제공받습니다. <br>
-                '쓰고 싶다면'에 등록된 상품 및 콘텐츠에 대한 저작권 및 법적 책임은 각 개별 정보제공사에 있으며,  당사는 그 등록된 내용에 대하여 일체의 책임을 지지 않습니다</p>
-            </div>
+        <div class="footers">
+          <div class="footg">
+          <p class="list"> <a href="#"> 회사소개(GS 칼텍스) </a> | <a href="#"> GS & PASS란 </a> | <a href="#"> 서비스약관 </a> | <a href="#" class="green"> 개인정보처리방침 </a> | <a href="#"> 가맹점제휴문의 </a> | <a href="#"> 사업제안문의 </a> |<a href="#">  1:1문의</a></p>
+          <p class="call"><i class="fa fa-phone" aria-hidden="true"></i>고객서비스센터 1544-5151</p>
+        </div><!--footg-->
+        </div><!--footers-->
+      <div class="container"> 
+        <div class="footb">
+          <img src="./images/logo_gsnpoint.png" alt="">
+          <div class="footright">
+            <p class="location">GS 칼텍스(주) 서울 특별시 강남구 역삼동 679번지 GS타워 </p>
+            <p class="copy">COPYRIGHT © GS CALTEX CORPORATION ALL RIGHTS RESERVED.</p>
+            <p class="notice">
+              GSnPOINT.com의 '쓰고 싶다면'에 등록된 상품 및 콘텐츠는 통신판매업자인 GS엠비즈(주)의 중개시스템을 통해 제공받습니다. <br>
+              '쓰고 싶다면'에 등록된 상품 및 콘텐츠에 대한 저작권 및 법적 책임은 각 개별 정보제공사에 있으며,  당사는 그 등록된 내용에 대하여 일체의 책임을 지지 않습니다</p>
           </div>
-        </div><!--container-->
-        </footer>
+        </div>
+      </div><!--container-->
+      </footer>
 </body>
 </html>

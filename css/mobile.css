@@ -37,11 +37,11 @@ body {
   }
   #gnb {
     position: fixed;
-    right: 0px;
-    top: 0px;
+    right: 1125px;
+    top: 40px;
     width: 300px;
     height: 100vh;
-    background-color: var(--main-color);
+    background-color:var(--main-color);
     box-shadow:1px 2px 2px rgb(88, 88, 88) ;
     padding-top: 100px;
     display: none;
@@ -51,7 +51,7 @@ body {
     color: white;
     font-size: 25px;
     display: block;
-    padding: 60px;
+    padding: 10px;
     margin-bottom: 40px;
     
     text-align: center;
@@ -83,17 +83,17 @@ body {
   #gnb .btn_close {
    
     position: fixed;
-    right: 310px;
-    top: 40px;
+    right: 1155px;
+    top: 50px;
     width: 50px;
     height: 50px;
     border: none;
-    background-color: rgba(255,255,255,0.1);
+    background-color: var(--main-color);
     
     border-radius: 50%;
     cursor: pointer;
     font-size: 40px;
-    color: var(--main-color);
+    color: #707070;
 }
 
   header {
@@ -128,7 +128,7 @@ body {
   .gnbs{
     display: flex;
     padding-top: 10px;
-    padding-left: 255px;
+    padding-left: 150px;
     color: white;
    
     font-size: 14px;
@@ -221,13 +221,13 @@ body {
 }
 #mainVisual .swiper-container{
   width: 100%;
-  object-fit: cover;
+ 
   
  
 }
 #mainVisual .swiper-slide{
   max-width: 767px;
- 
+  object-fit: cover;
   
 }
 #mainVisual .swiper-slide img{
@@ -237,19 +237,19 @@ body {
 }
 #mainVisual .swiper-slide .text{
   position: absolute;
-  top: 65px;
-  left: 123px;
+  top: 25px;
+  left: 70px;
   text-align: center;
 }
 #mainVisual .swiper-slide .text .container> p.gs{
   color: #3c435f;
-  font-size: 28px;
+  font-size: 24px;
   padding-bottom: 18px;
  text-align: center;
 }
 #mainVisual .swiper-slide .text .container> p.coupon{
   color: var(--sub-color);
-  font-size: 40px;
+  font-size: 35px;
   padding-bottom: 15px;
 }
 #mainVisual .swiper-slide .text .container> p.pick{
@@ -260,7 +260,7 @@ body {
 #mainVisual .swiper-slide .text .container> p.link{
   font-size: 16px;
  width: 160px;
-  margin-left: 52px;
+  margin-left: 42px;
   border: 1px solid var(--sub-color);
   margin-top: 40px;
   text-align: center;
@@ -275,7 +275,7 @@ color: white;
 #mainVisual .swiper-slide .text2{
   position: absolute;
   top: 65px;
-  left: 73px;
+  left: 33px;
 }
 #mainVisual .swiper-slide .text2 .container> p.eventtext{
   color: #3c435f;
@@ -286,20 +286,20 @@ color: white;
 }
 #mainVisual .swiper-slide .text2 .container> p.bigevent{
   color: var(--main-color);
-  font-size: 40px;
+  font-size: 35px;
   padding-bottom: 40px;
   text-align: center;
 }
 #mainVisual .swiper-slide .text2 .container> p.long{
   color: #070707;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 10px;
   text-align: center;
 }
 #mainVisual .swiper-slide .text2 .container> p.link{
     font-size: 16px;
    width: 160px;
-    margin-left: 102px;
+    margin-left: 82px;
     border: 1px solid var(--main-color);
     margin-top: 40px;
     text-align: center;
@@ -319,11 +319,11 @@ color: white;
 }
 #mainVisual .swiper-slide .text3 .container> p.emart{
   color: #070707;
-  font-size: 30px;
+  font-size: 26px;
   padding-bottom: 40px;
   
   text-align: center;
-  margin-left: 45px;
+  margin-left: 0px;
   line-height: 45px;
 }
 #mainVisual .swiper-slide .text3 .container> p.emart > span.blue{
@@ -339,13 +339,13 @@ color: white;
   font-weight: bold;
 }
 #mainVisual .swiper-slide .text3 .container> p.visit{
-  font-size: 24px;
+  font-size: 19px;
   color: var(--main-color);
   margin-bottom: 30px;
-  margin-left: 27px;
+  margin-left: 20px;
 }
 #mainVisual .swiper-slide .text3 .container> p.long2{
-  font-size: 17px;
+  font-size: 15px;
   color: #555;
   
   text-align: center;
@@ -367,7 +367,7 @@ color: white;
 #mainVisual .swiper-slide .text3 .container > p.link{
     font-size: 16px;
    width: 160px;
-    margin-left: 163px;
+    margin-left: 103px;
     border: 1px solid var(--main-color);
     margin-top: 40px;
     text-align: center;
@@ -396,15 +396,15 @@ color: white;
  
 }
 #banner .small{
-  font-size: 20px;
+  font-size: 18px;
   color: var(--main-color);
-  margin-left: 35px;
+  margin-left: 30px;
   margin-top: 80px;
 }
 #banner .big{
-  font-size: 28px;
+  font-size: 22px;
   color: var(--main-color);
-  margin-left: 35px;
+  margin-left: 30px;
   margin-top: 8px;
   font-weight: bold;
 }
@@ -435,18 +435,18 @@ color: white;
   text-align: center;
 }
 #event .container h2.eventitle{
-  font-size: 50px;
+  font-size: 35px;
   padding-bottom: 20px;
 }
 #event .container h2.eventitle .green{
   color: var(--main-color);
 }
 #event .container p.eventsmall{
-  font-size: 25px;
+  font-size: 20px;
   
 }
 #eventbox .container .group{
-  padding-left: 64px;
+  margin-left: 5px;
   
   text-align: center;
 }
@@ -475,9 +475,9 @@ color: white;
     margin-left: 65px;
 }
 #point .container .col{
-  width: 345px;
+  width: 245px;
   height: 402px;
-  margin-right: 20px;
+ 
   border-bottom: 1px solid #707070;
   text-align: center;
   
@@ -491,17 +491,17 @@ color: white;
   margin-top: 85px;
 }
 #point .container .col  p.name{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   padding-top: 30px;
   padding-bottom: 20px;
 }
 #point .container .col  p.intro{
-  font-size: 20px;
+  font-size: 16px;
 }
 #news{
   max-width: 767px;
-  height: 900px;
+  height: 700px;
   background-image: url(../images/main\ news\ banner.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -512,12 +512,12 @@ color: white;
  
 }
 #news .container h1.news{
-  padding-top: 40px;
-  font-size: 40px;
+  padding-top: 25px;
+  font-size: 30px;
 }
 #news .container p.notice{
   padding-top: 25px;
-  font-size: 18px;
+  font-size: 15px;
   padding-bottom: 45px;
 }
 #news .container .colg{
@@ -526,11 +526,11 @@ color: white;
 }
 #news .container .col{
   width: 360px;
-  height: 455px;
+  height: 430px;
   
   border-left: 1px solid #777;
   border-right: 1px solid #777;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: bold;
   position: relative;
   overflow: hidden;
@@ -569,8 +569,8 @@ footer > .footers .footg{
   font-size: 4px;
 }
 footer > .footers > .footg >p.list{
- 
-  padding-top: 20px;
+  margin-left: 7px;
+  padding-top: 10px;
   
 }
 footer  > .footers > .footg >.list > a{
@@ -584,7 +584,7 @@ footer  > .footers > .footg >.list > a.green{
 }
 footer > .footers  > .footg >.call{
   padding-left: 25px;
-  padding-top: 17px;
+  padding-top: 10px;
   padding-right: 18px;
   text-align: center;
 }
@@ -598,13 +598,13 @@ footer > .container3 >  .footb{
   
 }
 footer > .container >  .footb > img{
-  width: 100px;
-  height: 80px;
+  width: 120px;
+  height: 110px;
   
-  margin-left: 200px;
+  margin-left: 140px;
 }
 footer > .container >  .footb > .footright{
-  margin-top: 30px;
+  
   
   margin-left: 10px;
 }   

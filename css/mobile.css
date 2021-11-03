@@ -37,7 +37,7 @@ body {
   }
   #gnb {
     position: fixed;
-    right: 1125px;
+    right: 1200px;
     top: 40px;
     width: 300px;
     height: 100vh;
@@ -83,7 +83,7 @@ body {
   #gnb .btn_close {
    
     position: fixed;
-    right: 1155px;
+    right: 1228px;
     top: 50px;
     width: 50px;
     height: 50px;
@@ -238,7 +238,7 @@ body {
 #mainVisual .swiper-slide .text{
   position: absolute;
   top: 25px;
-  left: 70px;
+  left: 80px;
   text-align: center;
 }
 #mainVisual .swiper-slide .text .container> p.gs{
@@ -281,7 +281,7 @@ color: white;
   color: #3c435f;
   font-size:18px;
   padding-bottom: 20px;
-  margin-left: 10px;
+  
   text-align: center;
 }
 #mainVisual .swiper-slide .text2 .container> p.bigevent{
@@ -314,8 +314,8 @@ color: white;
 #mainVisual .swiper-slide .text3 {
   position: absolute;
   top: 75px;
- 
-  
+  text-align: center;
+  left: 15px;
 }
 #mainVisual .swiper-slide .text3 .container> p.emart{
   color: #070707;
@@ -323,7 +323,7 @@ color: white;
   padding-bottom: 40px;
   
   text-align: center;
-  margin-left: 0px;
+ 
   line-height: 45px;
 }
 #mainVisual .swiper-slide .text3 .container> p.emart > span.blue{
@@ -446,15 +446,15 @@ color: white;
   
 }
 #eventbox .container .group{
-  margin-left: 5px;
   
+  margin-left: 25px;
   text-align: center;
 }
 #eventbox .container .group .col2{
   width: 345px;
   height: 402px;
   border: 1px solid #707070;
-  margin: 10px;
+ margin-bottom: 10px;
 }
 #eventbox .container .group .col2 a{
   color: #070707;

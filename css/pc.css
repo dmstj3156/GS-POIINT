@@ -264,14 +264,14 @@ color: white;
   position: absolute;
   top: 55px;
   text-align: center;
-  margin-left: 263px;
+  margin-left: 163px;
 }
 #mainVisual .swiper-slide .text3 .container> p.emart{
   color: #070707;
   font-size: 30px;
   padding-bottom: 40px;
   margin-left: 10px;
-  text-align: center;
+  
  
   line-height: 45px;
 }
@@ -314,7 +314,7 @@ color: white;
 #mainVisual .swiper-slide .text3 .container p.link{
     font-size: 16px;
    width: 160px;
-    margin-left: 600px;
+    margin-left: 620px;
     border: 1px solid var(--main-color);
     margin-top: 40px;
     

@@ -32,6 +32,8 @@
         
           <nav id="gnb1">
             <div class="container">
+              <div id="google_translate_element">
+              </div>
             <ul class="gnbs">
               <li><a href="#" class="orange">로그인</a></li>
               <li><a href="#">회원가입</a></li>
@@ -291,7 +293,7 @@
         <p class="one">- 배송 기간은 주문 완료 후 약 3-7일 소요됩니다.(주말, 공휴일 재외) <br>
           - 배송비는 상품의 성격 및 배송 지역에 따라 각각 다르게 적용될 수 있습니다. <br>
           - 고객 변심으로 인한 반품 및 교환에 따른 반송 택배비는 고객 부담입니다. (반품은 물품 수령 후 7일 이내에만 가능) </p>
-        <p class="two">본 서비스는 GS&POINT와 제휴. 협약된 통신 판매업자(GS앰바주(주) 통신판매업 신고번호 : 18-1372)의 중개 시스탬을 통해 제공/운영되고 있습니다. <br>
+        <p class="two">본 서비스는 GS&POINT와 제휴. 협야고딘 통신 판매업자(GS앰바주(주) 통신판매업 신고번호 : 18-1372)의 중개 시스탬을 통해 제공/운영되고 있습니다. <br>
           본 서비스에 대한 저작권 및 모든 법적 책임은 제휴사에 있습니다. <br>
           GS&POINT 서비스 제공에 관련된 문의사항은 <span class="orange"> 고객상담실(1544-5151)</span>로 문의해 주시기 바랍니다. </p>
       </div>
@@ -321,5 +323,37 @@
           </div>
         </div><!--container-->
         </footer>
+        <script>
+          AOS.init();
+        </script>
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+          <div id="google_translate_element"></div>
+        <script type="text/javascript"> 
+          function googleTranslateElementInit() { 
+              new google.translate.TranslateElement(
+                  {
+                      //gaTrack: true,  // Google 애널리틱스
+                      //gaId: 'UA-*******', // Google 애널리틱스 웹 속성 ID
+                      pageLanguage: 'ko', 
+                      includedLanguages: 'de,en,ja,ko,zh-CN', 
+                      layout: google.translate.TranslateElement.InlineLayout.SIMPLE, 
+                      autoDisplay: false, multilanguagePage: true
+                  }, 
+                  'google_translate_element'
+              ); 
+          } 
+          </script>
+          <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+          
+        
+          <div id="google_translate_element" style="visibility: hidden; position: absolute; top: 0px;"></div> 
+          <div class="translation-icons" style="visibility: hidden; position: relative; margin:0 auto; padding-right: 15px; zoom:1"> 
+              <img src="/img/google_translate_logo.png" alt='구글 번역 api'/> 
+              <a href="#" class="ko" data-placement="0"> <img src="/img/google_translate_KR.png" alt='한국'/></a> 
+              <a href="#" class="gm" data-placement="1"> <img src="/img/google_translate_GM.png" alt='독일'/></a> 
+              <a href="#" class="us" data-placement="2"> <img src="/img/google_translate_US.png" alt='미국'/></a> 
+              <a href="#" class="jp" data-placement="3"> <img src="/img/google_translate_JP.png" alt='일본'/></a> 
+              <a href="#" class="cn" data-placement="4"> <img src="/img/google_translate_CN.png" alt='중국'/></a>  
+          </div> 
 </body>
 </html>

@@ -22,7 +22,9 @@ body {
     list-style-type: none;  
     padding: 0;
   }
-
+  #toggle{
+    display: none;
+  }
   .container {
     width: 1440px;
     margin: 0 auto;
@@ -61,7 +63,7 @@ body {
   .gnbs{
     display: flex;
     padding-top: 10px;
-    padding-left: 1175px;
+    padding-left: 1205px;
     color: white;
    
     font-size: 14px;
@@ -443,7 +445,7 @@ color: white;
  
 }
 #news .container h1.news{
-  padding-top: 90px;
+  padding-top: 30px;
   font-size: 50px;
 }
 #news .container p.notice{
@@ -496,7 +498,7 @@ color: white;
 }
 footer{
   width: 100%;
-  height: 220px;
+  height: 240px;
   background-color: #EBEBEB;
   color: #555;
 }

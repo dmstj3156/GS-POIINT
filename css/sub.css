@@ -2,8 +2,35 @@
     --main-color:#009797;
     --sub-color:#F99D29;
   }
+  iframe.goog-te-banner-frame { display: none !important; }
+
+.goog-logo-link { display:none !important; } 
+.goog-te-gadget { color: transparent !important; } 
+/* 번역 버튼 */
+.goog-te-gadget-simple {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 1315px;
+  
+}
+
+/* 구글 기본 가젯 끔 */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
   body{
+    position: static !important; top:0px !important; 
       background-color: #FBFBFB;
+  }
+  .gnbs{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 1085px;
+    color: white;
+   
+    font-size: 14px;
+    width: 1440px;
+    margin: 0 auto;
   }
   #sub1_1 #main{
     margin: 0 auto;

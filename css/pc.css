@@ -1,5 +1,22 @@
 /*style.css*/
 /* pc.css */
+
+iframe.goog-te-banner-frame { display: none !important; }
+
+.goog-logo-link { display:none !important; } 
+.goog-te-gadget { color: transparent !important; } 
+/* 번역 버튼 */
+.goog-te-gadget-simple {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 1315px;
+  
+}
+
+/* 구글 기본 가젯 끔 */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
 section {
   width: 100%;
   max-width: 100%;
@@ -13,6 +30,7 @@ section {
   --sub-color:#F99D29;
 }
 body {
+  position: static !important; top:0px !important; 
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
   }
@@ -75,7 +93,7 @@ body {
   .gnbs{
     display: flex;
     padding-top: 10px;
-    padding-left: 1205px;
+    padding-left: 1085px;
     color: white;
    
     font-size: 14px;
@@ -564,3 +582,4 @@ footer > .container >  .footb > .footright > p.location{
   padding-bottom: 10px;
   color: #555;
 }
+

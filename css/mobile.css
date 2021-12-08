@@ -1,9 +1,26 @@
 /*style.css*/
+
+/*구글언어*/
+iframe.goog-te-banner-frame { display: none !important; }
+
+.goog-logo-link { display:none !important; } 
+.goog-te-gadget { color: transparent !important; } 
 :root{
   --main-color:#009797;
   --sub-color:#F99D29;
 }
+/* 번역 버튼 */
+.goog-te-gadget-simple {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 300px;
+  
+}
 
+/* 구글 기본 가젯 끔 */
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
 section {
   width: 100%;
   margin: 0 auto;
@@ -11,6 +28,7 @@ section {
 body {
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
+    position: static !important; top:0px !important; 
   }
 
   * {
@@ -35,18 +53,21 @@ body {
     position: relative;
     padding: 30px 0;
   }
+
   #gnb {
     
-    position:absolute;
-    right: 0;
+    position:fixed;
+    right: -80%;
     top: 0px;
     width: 300px;
-    height: 100vh;
+    height: calc(100% - 68px);
     background-color:var(--main-color);
     box-shadow:1px 2px 2px rgb(88, 88, 88) ;
     padding-top: 100px;
-    display: none;
+    
+    transition: 0.8s;
   }
+  #gnb.show { right: 0;}
  #gnb a{
     text-decoration: none;
     color: white;
@@ -63,6 +84,7 @@ body {
   }
   #gnb.show{
     display: block;
+   
   }
   #toggle{
     position: absolute;
@@ -85,7 +107,7 @@ body {
    
     position: absolute;
     right: 30px;
-    top: 12px;
+    top: 52px;
     width: 50px;
     height: 50px;
     border: none;
@@ -98,7 +120,8 @@ body {
 }
 
   header {
-   
+  width: 100%;
+
     height: 120px;
     border-bottom: 1px solid var(--main-color);
     position: relative;
@@ -109,6 +132,7 @@ body {
     display: flex;
     padding: 0;
     z-index: 999;
+    max-width: 767px;
   }
 
   header h1 {
@@ -129,7 +153,7 @@ body {
   .gnbs{
     display: flex;
     padding-top: 10px;
-    padding-left: 150px;
+    padding-right: 180px;
     color: white;
    
     font-size: 14px;
@@ -219,27 +243,32 @@ body {
 /*main visual*/
 #mainVisual{
  position: relative;
+ width: 100%;
+
 }
 #mainVisual .swiper-container{
-  width: 100%;
  
-  
- 
+  max-width: 767px;
 }
+#mainVisual .swiper-container .swiper-wrapper{
+  max-width: 767px;
+  
+} 
 #mainVisual .swiper-slide{
   max-width: 767px;
-  object-fit: cover;
+  text-align: center;
   
 }
 #mainVisual .swiper-slide img{
-  height: 833px;
-  max-width: 767px;
+  height: 653px;
+  
   object-fit: cover;
+  width: 100%;
 }
 #mainVisual .swiper-slide .text{
   position: absolute;
-  top: 25px;
-  left: 80px;
+  top: 75px;
+  left: 100px;
   text-align: center;
 }
 #mainVisual .swiper-slide .text .container> p.gs{
@@ -276,7 +305,7 @@ color: white;
 #mainVisual .swiper-slide .text2{
   position: absolute;
   top: 65px;
-  left: 33px;
+  left: 53px;
 }
 #mainVisual .swiper-slide .text2 .container> p.eventtext{
   color: #3c435f;
@@ -314,9 +343,9 @@ color: white;
 }
 #mainVisual .swiper-slide .text3 {
   position: absolute;
-  top: 75px;
+  top: 38px;
   text-align: center;
-  left: 15px;
+  left: 30px;
 }
 #mainVisual .swiper-slide .text3 .container> p.emart{
   color: #070707;
@@ -392,26 +421,26 @@ color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
- width: 767px;
-  height: 350px;
+  max-width: 767px;
+  height: 250px;
  
 }
 #banner .small{
-  font-size: 18px;
+  font-size: 12px;
   color: var(--main-color);
   margin-left: 30px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 #banner .big{
-  font-size: 22px;
+  font-size: 16px;
   color: var(--main-color);
   margin-left: 30px;
   margin-top: 8px;
   font-weight: bold;
 }
 #gsbanner{
-  width: 100%;
-  height: 270px;
+  max-width: 767px;
+  height: 200px;
   background-image: url(../images/gsbannerpng.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -422,11 +451,11 @@ color: white;
 }
 
 #gsbanner .container h1.gs{
-  font-size: 40px;
-  padding-top: 50px;
+  font-size: 30px;
+  padding-top: 30px;
 }
 #gsbanner .container p.reason{
-  font-size: 18px;
+  font-size: 15px;
   padding-top: 15px;
 }
 #event {
@@ -448,16 +477,26 @@ color: white;
   font-size: 20px;
   
 }
-#eventbox .container .group{
-  width: 345px;
-  text-align: center;
+#eventbox {
+
+ width: 100%;
+}
+#eventbox .container {
   
+  max-width: 343px;
+ 
+ }
+#eventbox .container .group{
+ width: 343px;
+  text-align: center;
+ 
 }
 #eventbox .container .group .col2{
-  width: 345px;
+  width: 343px;
   height: 402px;
   border: 1px solid #707070;
- margin-bottom: 10px;
+ margin-bottom: 20px;
+  
 }
 #eventbox .container .group .col2 a{
   color: #070707;
@@ -473,16 +512,20 @@ color: white;
 }
 #point{
   padding-bottom: 90px;
+  width: 100%;
 }
 #point .container {
-    margin-left: 65px;
+  max-width: 245px;
+  text-align: center;
+  
+  
 }
 #point .container .col{
   width: 245px;
   height: 402px;
  
   border-bottom: 1px solid #707070;
-  text-align: center;
+ 
   
 }
 #point .container .col:last-child{

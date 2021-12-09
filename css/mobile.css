@@ -2,6 +2,11 @@
 
 /*구글언어*/
 iframe.goog-te-banner-frame { display: none !important; }
+.translation-icons{
+  position: relative;
+  
+}
+
 
 .goog-logo-link { display:none !important; } 
 .goog-te-gadget { color: transparent !important; } 
@@ -13,7 +18,7 @@ iframe.goog-te-banner-frame { display: none !important; }
 .goog-te-gadget-simple {
   position: absolute;
   margin-top: 7px;
-  margin-left: 300px;
+  left: 74%;
   
 }
 
@@ -57,17 +62,20 @@ body {
   #gnb {
     
     position:fixed;
-    right: -80%;
+    right: -300px;
     top: 0px;
     width: 300px;
-    height: calc(100% - 68px);
+    height: 100%;
     background-color:var(--main-color);
     box-shadow:1px 2px 2px rgb(88, 88, 88) ;
     padding-top: 100px;
     
-    transition: 0.8s;
+    transition: 0.4s;
   }
-  #gnb.show { right: 0;}
+  #gnb.show {
+    right: 100px;
+     display: block;
+  }
  #gnb a{
     text-decoration: none;
     color: white;
@@ -79,13 +87,7 @@ body {
     text-align: center;
     width: 300px;
   }
-  nav a:hover{
 
-  }
-  #gnb.show{
-    display: block;
-   
-  }
   #toggle{
     position: absolute;
     right: 30px;
@@ -149,16 +151,18 @@ body {
     background-color: var(--main-color);
     height: 40px;
     width: 100%;
+   
   }
   .gnbs{
     display: flex;
     padding-top: 10px;
-    padding-right: 180px;
+   
     color: white;
-   
+    position: absolute;
     font-size: 14px;
-   
-    margin: 0 auto;
+    left: 30px;
+   margin-right: 100px;
+    
   }
   .gnbs > li{
     margin-right: 20px;
@@ -247,7 +251,7 @@ body {
 
 }
 #mainVisual .swiper-container{
- 
+ overflow: hidden;
   max-width: 767px;
 }
 #mainVisual .swiper-container .swiper-wrapper{
@@ -261,7 +265,7 @@ body {
 }
 #mainVisual .swiper-slide img{
   height: 653px;
-  
+  overflow: hidden;
   object-fit: cover;
   width: 100%;
 }
@@ -426,13 +430,13 @@ color: white;
  
 }
 #banner .small{
-  font-size: 12px;
+  font-size: 16px;
   color: var(--main-color);
   margin-left: 30px;
   margin-top: 50px;
 }
 #banner .big{
-  font-size: 16px;
+  font-size: 20px;
   color: var(--main-color);
   margin-left: 30px;
   margin-top: 8px;
@@ -604,7 +608,8 @@ footer{
   color: #555;
 }
 footer > .footers{
-  height: 65px;
+  padding-bottom: 20px;
+  padding-top: 10px;
   max-width: 767px;
   border-bottom: 1px solid rgb(177, 177, 177);
 }
@@ -631,7 +636,7 @@ footer  > .footers > .footg >.list > a.green{
 footer > .footers  > .footg >.call{
   padding-left: 25px;
   padding-top: 10px;
-  padding-right: 18px;
+  padding-right: 30px;
   text-align: center;
 }
 footer > .footers  > .footg > .call > i{

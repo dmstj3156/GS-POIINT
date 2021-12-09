@@ -89,16 +89,20 @@ body {
     background-color: var(--main-color);
     height: 40px;
     width: 100%;
+    position: relative;
   }
   .gnbs{
-    display: flex;
+    display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
     padding-top: 10px;
-    padding-left: 1085px;
+    position: absolute;
+    right: 150px;
     color: white;
    
     font-size: 14px;
-    width: 1440px;
-    margin: 0 auto;
+    
+   
   }
   .gnbs > li{
     margin-right: 30px;
@@ -195,12 +199,13 @@ body {
 #mainVisual .swiper-container{
   width: 100%;
   object-fit: cover;
-  
+ overflow: hidden;
  
 }
+
 #mainVisual .swiper-slide{
   width: 100%;
-  
+  overflow: hidden;
 }
 #mainVisual .swiper-slide img{
   height: 833px;

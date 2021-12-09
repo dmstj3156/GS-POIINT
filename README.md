@@ -7,13 +7,18 @@
         <ul>
             <li><a href="">목차</a></li>
             <li><a href="">링크</a></li>
-            <ul>
-                <li><a href="https://dmstj3156.github.io/GS-POIINT/">GS&POINT</a></li>     
-          </ul>
+                <ul>
+                    <li><a href="https://dmstj3156.github.io/GS-POIINT/">GS&POINT</a></li>     
+                </ul>
+            <li><a href="">기여도 및 역할</a></li>
+                <ul>
+                    <li>개인 프로젝트</li>
+                    <li>전체적인 기획 및 시안 , 퍼블리싱 작업 및 이미지 제작</li>
+                </ul>
             <li><a href="">Page</a></li>
-            <ul>
-              <li>main index, sub1_1(회사소개), sub1_4(오시는길), sub3_1(상품소개)</li> 
-            </ul>
+                <ul>
+                  <li>main index, sub1_1(회사소개), sub1_4(오시는길), sub3_1(상품소개)</li> 
+                </ul>
             <li><a href="">작업내용</a></li>
                 <ul>
                     <li><a href="">사용스킬</a></li>

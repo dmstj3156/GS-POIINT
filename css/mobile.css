@@ -1054,7 +1054,8 @@ footer > .container >  .footb > .footright > p.location{
    }
    #event .container{
      text-align: center;
-     max-width: 479px;
+     width: 340px;
+     margin: 0 auto;
    }
    #event .container h2.eventitle{
      font-size: 35px;

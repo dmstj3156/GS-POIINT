@@ -389,6 +389,8 @@ color: white;
 }
 #event .container{
   text-align: center;
+  width: 450px;
+     margin: 0 auto;
 }
 #event .container h2.eventitle{
   font-size: 50px;
